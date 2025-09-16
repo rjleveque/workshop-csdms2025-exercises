@@ -27,11 +27,11 @@ Wiki reference: [ghost forest](wiki:Ghost_forest) or see
 
 The assumptions above allow expressing the velocity
 in the Airy solutionas in terms of a potential function as
-$\vec u = \grad\Phi$ (i.e. $(u,w) = (\Phi_x,\Phi_z)$),
+$\vec u = \nabla\Phi$ (i.e. $(u,w) = (\Phi_x,\Phi_z)$),
 with $\Phi(x,z,t)$ satisfying
 \begin{equation}\label{Phi1}
 \begin{split}
-\grad^2\Phi &= 0, \qquad -h_0\leq z \leq \eta(x,t),\\
+\nabla^2\Phi &= 0, \qquad -h_0\leq z \leq \eta(x,t),\\
 \Phi_t &= 0, \qquad z=-h_0,\\
 \Phi_{tt} + g\Phi_z&= 0, \qquad z = 0.
 \end{split}
@@ -42,6 +42,6 @@ the free surface is determined by
 \begin{equation}\label{Phieta}
 \eta(x,t) = -\frac 1 g  \Phi_t(x,0,t)
 \end{equation}
-The third equation of \eqn{Phi1} comes from the free surface condition
+The third equation of (\ref{Phi1}) comes from the free surface condition
 $\eta_{tt}(x,0,t) = w(x,0,t)$, the vertical component of the velocity vector.
 
